@@ -1,1 +1,2 @@
 DATABASE_NAME="preeti"
+COLLECTION_NAME="sensor"
