@@ -4,4 +4,5 @@ pandas
 typing
 scikit-learn
 datetime
+PyYAML
 -e .
