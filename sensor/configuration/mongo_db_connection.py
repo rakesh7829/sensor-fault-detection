@@ -1,9 +1,14 @@
 import pymongo
 from sensor.constants.Database import DATABASE_NAME
 from sensor.constants.env_variable import MONGODB_URL_KEY
+#import ssl
 import certifi
+ca =certifi.where()
+
+from pymongo import MongoClient
+
 import os
-ca = certifi.where()
+
 
 class MongoDBClient:
     client = None
